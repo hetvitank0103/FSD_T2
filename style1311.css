@@ -1,0 +1,22 @@
+:root{
+    --b:brown;
+    --fs:40px;
+    --all:solid dotted dashed double;
+    --p20:20px;
+}
+h1{
+    color: var(--b);
+    font-size: var(--fs);
+    --a:center;
+    text-align: var(--a); 
+}
+h2{
+    --b:blue;
+    color:var(--b);
+    text-align: var(--a);
+}
+p{
+    padding: var(--p20);
+    border-style: var(--all);
+    border-width: 8px;
+}

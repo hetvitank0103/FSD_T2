@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+    color: palevioletred;
+    font-size: 50px;
+}
+@media screen and (max-width:800px) and (min-width:500px)
+{
+    body{background-color:lightblue;}
+    h1{color: red; font-size: 40px;}
+}
+@media (max-width:500px)
+{
+    body{background-color:yellowgreen;}
+    h1{color: p; font-size: 20px;}
+}
